@@ -1,0 +1,80 @@
+# Miscellaneous & OS
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ & VS Code
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart / Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android Studio / Gradle
+.gradle/
+.kotlin/
+captures/
+local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+GeneratedPluginRegistrant.java
+.cxx/
+
+# iOS / macOS
+**/DerivedData/
+**/xcuserdata/
+**/Pods/
+**/.symlinks/
+**/ephemeral/
+Flutter/App.framework
+Flutter/Flutter.framework
+Flutter/Flutter.podspec
+Flutter/Generated.xcconfig
+Flutter/flutter_export_environment.sh
+
+# Windows Visual Studio
+x64/
+x86/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.[Cc]ache
+!*.[Cc]ache/
+
+# Security / Sensitive Keys
+*.keystore
+*.jks
+key.properties
+.env
+.env.*
+*.p8
+*.p12
+service_account*.json

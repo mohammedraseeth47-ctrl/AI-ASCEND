@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "liveLocations": {
+      "$tripId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
+}
